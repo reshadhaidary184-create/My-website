@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reshad | My Portfolio</title>
+<style>
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body {
+font-family: Arial, sans-serif;
+background: #080d18;
+color: white;
+line-height: 1.6;
+}
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+}
+/* NAVBAR /
+header {
+background: #101a2c;
+padding: 20px 0;
+position: sticky;
+top: 0;
+z-index: 100;
+border-bottom: 1px solid #263650;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+font-size: 25px;
+font-weight: bold;
+color: #65a8ff;
+}
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+}
+nav a:hover {
+color: #65a8ff;
+}
+/* HERO /
+.hero {
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+.hero h1 {
+font-size: 55px;
+margin: 15px 0;
+}
+.hero h1 span {
+color: #65a8ff;
+}
+.hero h2 {
+color: #63e0df;
+}
+.hero p {
+color: #b5c1d3;
+margin: 15px 0;
+max-width: 550px;
+}
+.btn {
+display: inline-block;
+background: #398be8;
+color: white;
+padding: 12px 22px;
+border-radius: 10px;
+text-decoration: none;
+margin-top: 15px;
+}
+.btn:hover {
+background: #63e0df;
+color: #080d18;
+}
+.profile {
+width: 220px;
+height: 220px;
+border-radius: 50%;
+background: linear-gradient(135deg, #398be8, #63e0df);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 90px;
+font-weight: bold;
+color: #080d18;
+box-shadow: 0 0 40px #398be855;
+}
+/* SECTIONS /
+section {
+padding: 75px 0;
+}
+.section-title {
+font-size: 35px;
+margin-bottom: 20px;
+color: #65a8ff;
+}
+.about-box {
+background: #111a2b;
+padding: 30px;
+border-radius: 18px;
+border: 1px solid #263650;
+color: #b5c1d3;
+}
+/* CARDS /
+.cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.card {
+background: #111a2b;
+padding: 25px;
+border-radius: 18px;
+border: 1px solid #263650;
+transition: 0.3s;
+}
+.card:hover {
+transform: translateY(-8px);
+border-color: #65a8ff;
+}
+.card h3 {
+margin: 12px 0;
+color: #63e0df;
+}
+.card p {
+color: #b5c1d3;
+}
+.icon {
+font-size: 35px;
+}
+/* SKILLS /
+.skills {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+.skill {
+background: #172943;
+border: 1px solid #398be8;
+padding: 12px 20px;
+border-radius: 30px;
+}
+/* CONTACT /
+.contact-box {
+background: #111a2b;
+padding: 35px;
+border-radius: 18px;
+text-align: center;
+}
+.contact-box p {
+color: #b5c1d3;
+margin: 15px;
+}
+/* FOOTER /
+footer {
+text-align: center;
+padding: 25px;
+background: #101a2c;
+color: #b5c1d3;
+}
+/* MOBILE /
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+gap: 15px;
+}
+nav a {
+margin: 5px;
+font-size: 13px;
+}
+.hero {
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 60px 0;
+}
+.hero h1 {
+font-size: 40px;
+}
+.profile {
+width: 160px;
+height: 160px;
+font-size: 65px;
+}
+.cards {
+grid-template-columns: 1fr;
+}
+.section-title {
+font-size: 28px;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<div class="logo">RESHAD.</div>
+<div>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#goals">Goals</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+<main>
+<div class="container hero" id="home">
+<div>
+<h2>Welcome to my website</h2>
+<h1>Hi, I'm <span>Reshad</span></h1>
+<h2>Future Programmer</h2>
+<p>
+I am passionate about technology, programming,
+creativity and building something meaningful for the future.
+</p>
+<a href="#about" class="btn">Discover My World</a>
+</div>
+<div class="profile">R</div>
+</div>
+<section id="about">
+<div class="container">
+<h2 class="section-title">About Me</h2>
+<div class="about-box">
+Hello, I'm Reshad. I am a young person passionate
+about technology and programming. I enjoy learning
+new things, developing my computer skills and
+exploring creative ideas.
+</div>
+</div>
+</section>
+<section id="goals">
+<div class="container">
+<h2 class="section-title">My Goals</h2>
+<div class="cards">
+<div class="card">
+<div class="icon">💻</div>
+<h3>Professional Programmer</h3>
+<p>Improve my programming knowledge and build amazing websites and apps.</p>
+</div>
+<div class="card">
+<div class="icon">🚀</div>
+<h3>My Own Company</h3>
+<p>Build my own successful technology company in the future.</p>
+</div>
+<div class="card">
+<div class="icon">🌍</div>
+<h3>Big Dreams</h3>
+<p>Turn my ideas into reality and make a positive impact on the world.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="skills">
+<div class="container">
+<h2 class="section-title">My Skills</h2>
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Computer Skills</div>
+<div class="skill">Creativity</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Programming</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="container">
+<div class="contact-box">
+<h2 class="section-title">Contact Me</h2>
+<p>Thank you for visiting my personal website!</p>
+<a href="#home" class="btn">Back to Top ↑</a>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2026 Reshad. All Rights Reserved.</p>
+</footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reshad | My Portfolio</title>
+<style>
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body {
+font-family: Arial, sans-serif;
+background: #080d18;
+color: white;
+line-height: 1.6;
+}
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+}
+/* NAVBAR /
+header {
+background: #101a2c;
+padding: 20px 0;
+position: sticky;
+top: 0;
+z-index: 100;
+border-bottom: 1px solid #263650;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+font-size: 25px;
+font-weight: bold;
+color: #65a8ff;
+}
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+}
+nav a:hover {
+color: #65a8ff;
+}
+/* HERO /
+.hero {
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+.hero h1 {
+font-size: 55px;
+margin: 15px 0;
+}
+.hero h1 span {
+color: #65a8ff;
+}
+.hero h2 {
+color: #63e0df;
+}
+.hero p {
+color: #b5c1d3;
+margin: 15px 0;
+max-width: 550px;
+}
+.btn {
+display: inline-block;
+background: #398be8;
+color: white;
+padding: 12px 22px;
+border-radius: 10px;
+text-decoration: none;
+margin-top: 15px;
+}
+.btn:hover {
+background: #63e0df;
+color: #080d18;
+}
+.profile {
+width: 220px;
+height: 220px;
+border-radius: 50%;
+background: linear-gradient(135deg, #398be8, #63e0df);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 90px;
+font-weight: bold;
+color: #080d18;
+box-shadow: 0 0 40px #398be855;
+}
+/* SECTIONS /
+section {
+padding: 75px 0;
+}
+.section-title {
+font-size: 35px;
+margin-bottom: 20px;
+color: #65a8ff;
+}
+.about-box {
+background: #111a2b;
+padding: 30px;
+border-radius: 18px;
+border: 1px solid #263650;
+color: #b5c1d3;
+}
+/* CARDS /
+.cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.card {
+background: #111a2b;
+padding: 25px;
+border-radius: 18px;
+border: 1px solid #263650;
+transition: 0.3s;
+}
+.card:hover {
+transform: translateY(-8px);
+border-color: #65a8ff;
+}
+.card h3 {
+margin: 12px 0;
+color: #63e0df;
+}
+.card p {
+color: #b5c1d3;
+}
+.icon {
+font-size: 35px;
+}
+/* SKILLS /
+.skills {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+.skill {
+background: #172943;
+border: 1px solid #398be8;
+padding: 12px 20px;
+border-radius: 30px;
+}
+/* CONTACT /
+.contact-box {
+background: #111a2b;
+padding: 35px;
+border-radius: 18px;
+text-align: center;
+}
+.contact-box p {
+color: #b5c1d3;
+margin: 15px;
+}
+/* FOOTER /
+footer {
+text-align: center;
+padding: 25px;
+background: #101a2c;
+color: #b5c1d3;
+}
+/* MOBILE /
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+gap: 15px;
+}
+nav a {
+margin: 5px;
+font-size: 13px;
+}
+.hero {
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 60px 0;
+}
+.hero h1 {
+font-size: 40px;
+}
+.profile {
+width: 160px;
+height: 160px;
+font-size: 65px;
+}
+.cards {
+grid-template-columns: 1fr;
+}
+.section-title {
+font-size: 28px;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<div class="logo">RESHAD.</div>
+<div>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#goals">Goals</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+<main>
+<div class="container hero" id="home">
+<div>
+<h2>Welcome to my website</h2>
+<h1>Hi, I'm <span>Reshad</span></h1>
+<h2>Future Programmer</h2>
+<p>
+I am passionate about technology, programming,
+creativity and building something meaningful for the future.
+</p>
+<a href="#about" class="btn">Discover My World</a>
+</div>
+<div class="profile">R</div>
+</div>
+<section id="about">
+<div class="container">
+<h2 class="section-title">About Me</h2>
+<div class="about-box">
+Hello, I'm Reshad. I am a young person passionate
+about technology and programming. I enjoy learning
+new things, developing my computer skills and
+exploring creative ideas.
+</div>
+</div>
+</section>
+<section id="goals">
+<div class="container">
+<h2 class="section-title">My Goals</h2>
+<div class="cards">
+<div class="card">
+<div class="icon">💻</div>
+<h3>Professional Programmer</h3>
+<p>Improve my programming knowledge and build amazing websites and apps.</p>
+</div>
+<div class="card">
+<div class="icon">🚀</div>
+<h3>My Own Company</h3>
+<p>Build my own successful technology company in the future.</p>
+</div>
+<div class="card">
+<div class="icon">🌍</div>
+<h3>Big Dreams</h3>
+<p>Turn my ideas into reality and make a positive impact on the world.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="skills">
+<div class="container">
+<h2 class="section-title">My Skills</h2>
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Computer Skills</div>
+<div class="skill">Creativity</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Programming</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="container">
+<div class="contact-box">
+<h2 class="section-title">Contact Me</h2>
+<p>Thank you for visiting my personal website!</p>
+<a href="#home" class="btn">Back to Top ↑</a>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2026 Reshad. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
